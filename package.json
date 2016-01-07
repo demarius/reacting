@@ -1,0 +1,21 @@
+{
+  "name": "reacting",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "t/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "reacting"
+  },
+  "dependencies": {
+    "cadence": "0.4.1",
+    "diet": "0.9.17",
+    "proof": "0.0.56",
+    "socket.io": "^1.3.7",
+  },
+  "author": "Demarius Chrite",
+  "license": "ISC"
+}
