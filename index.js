@@ -1,5 +1,5 @@
 var React = require('react'), jsx = require('node-jsx')
-var browserify = require('browserify')
+var browserify = require('browserify'), express = require('express')
 
 jsx.install()
 
