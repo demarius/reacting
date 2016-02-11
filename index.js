@@ -24,3 +24,10 @@ express.use('/', function (req, res) {
         )
     ))
 })
+
+express.use('/bundle.js', function (req, res) {
+    res.setHeader('Content-Type', 'application/javascript')
+    browserify('./app.js', {
+        debug: true
+    }).transform('reactify').bundle().pipe(res)
+})
